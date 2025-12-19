@@ -21,8 +21,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # ----------------- CONFIG ----------------- #
-GEMINI_API_KEY = "AIzaSyDMcDy8CJ9_sSvxvNiomx77KahxIAa6gPw"   # <-- your key (as requested)
-SHEET_ID = "1aLoQHBmTeHDMB-FH6gscJDWyFx8Eeyregj2EkpSMfUA"  # your sheet id
+GEMINI_API_KEY = "GEMINI_API_KEY"   # <-- your key (as requested)
+SHEET_ID = "SHEET_NAME"  # your sheet id
 MODEL_NAME = "models/gemini-2.5-flash"   # model to use
 TOPICS = ["SQL", "Python", "Statistics", "Machine Learning"]
 QUESTIONS_PER_TOPIC = 5
