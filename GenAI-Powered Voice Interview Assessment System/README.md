@@ -39,21 +39,22 @@ The focus of this project is on **LLM orchestration, speech processing, evaluati
 ## 🏗️ Project Architecture (High-Level)
 
 User (Voice Input)
-↓
-Microphone Recorder
-↓
-Whisper STT (Speech → Text)
-↓
+        ↓
+Local / Browser-based Audio Recording
+        ↓
+Whisper Speech-to-Text (STT)
+        ↓
 Gemini LLM
-├── Question Generation
-├── Answer Evaluation
-└── Scoring Logic
-↓
-Structured Results
-↓
+   ├── Spoken Question Generation
+   └── Multi-Rubric Answer Evaluation
+        ↓
+Scoring & Validation Logic
+        ↓
+Structured Results (JSON)
+        ↓
 Google Sheets (Logging & Analytics)
-↓
-Streamlit Dashboard
+        ↓
+Streamlit Dashboard (Review & Insights)
 
 ---
 
