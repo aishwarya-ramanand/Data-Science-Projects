@@ -38,23 +38,54 @@ The focus of this project is on **LLM orchestration, speech processing, evaluati
 
 ## 🏗️ Project Architecture (High-Level)
 
-User (Voice Input)
-        ↓
-Local / Browser-based Audio Recording
-        ↓
-Whisper Speech-to-Text (STT)
-        ↓
-Gemini LLM
-   ├── Spoken Question Generation
-   └── Multi-Rubric Answer Evaluation
-        ↓
-Scoring & Validation Logic
-        ↓
-Structured Results (JSON)
-        ↓
-Google Sheets (Logging & Analytics)
-        ↓
-Streamlit Dashboard (Review & Insights)
+┌──────────────────────┐
+│        User          │
+│  (Voice / Audio)     │
+└─────────┬────────────┘
+          │
+          ▼
+┌──────────────────────┐
+│  Audio Capture Layer │
+│  • Mic Recording     │
+│  • WAV Upload        │
+└─────────┬────────────┘
+          │
+          ▼
+┌──────────────────────┐
+│   Whisper STT        │
+│  (Speech → Text)     │
+└─────────┬────────────┘
+          │
+          ▼
+┌────────────────────────────────────┐
+│           Gemini LLM                │
+│  • Dynamic Question Generation      │
+│  • Answer Evaluation (Rubrics)      │
+│  • Structured JSON Output           │
+└─────────┬──────────────────────────┘
+          │
+          ▼
+┌──────────────────────┐
+│  Scoring & Analytics │
+│  • Multi-rubric Score│
+│  • Correctness Tag   │
+│  • Feedback & Hints  │
+└─────────┬────────────┘
+          │
+          ▼
+┌──────────────────────┐
+│   Data Persistence   │
+│  • Google Sheets     │
+│  • Structured Logs   │
+└─────────┬────────────┘
+          │
+          ▼
+┌──────────────────────┐
+│  Streamlit Dashboard │
+│  • Question Preview  │
+│  • Audio Playback    │
+│  • Evaluation View   │
+└──────────────────────┘
 
 ---
 
