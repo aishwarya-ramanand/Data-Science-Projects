@@ -1,2 +1,2 @@
 # Data-Science-Projects
-My DS Projects
+My AI-based Data Science Projects
