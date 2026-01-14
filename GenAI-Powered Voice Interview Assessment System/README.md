@@ -104,14 +104,3 @@ streamlit run streamlit_app.py
 
 Aishwarya R
 Aspiring Data Scientist | GenAI & ML Enthusiast
-
----
-
-### ✅ Next (recommended)
-If you want, I can:
-- Rewrite this **for ATS-style GitHub recruiters**
-- Create a **one-paragraph GitHub description**
-- Convert this into **resume bullet points**
-- Help you answer interview questions confidently
-
-Just tell me 💙
