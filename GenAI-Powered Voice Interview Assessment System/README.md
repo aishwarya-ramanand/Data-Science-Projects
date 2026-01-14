@@ -1,6 +1,6 @@
 # 🎙️ GenAI Voice-Based Interview Assessment System
 
-**By Aishwarya R**
+** 👩‍💻 By Aishwarya R**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![GenAI](https://img.shields.io/badge/GenAI-Gemini-orange)
@@ -99,9 +99,3 @@ streamlit run streamlit_app.py
 	•	Real-world challenges of GenAI orchestration
 	•	Logging AI outputs for analytics and reporting
 	•	Building interview-ready AI systems
-
-
-👩‍💻 Author
-
-Aishwarya R
-Aspiring Data Scientist | GenAI & ML Enthusiast
