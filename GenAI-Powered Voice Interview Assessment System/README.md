@@ -1,6 +1,6 @@
 # 🎙️ GenAI Voice-Based Interview Assessment System
 
-** 👩‍💻 By Aishwarya R**
+**By Aishwarya R** 👩‍💻 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![GenAI](https://img.shields.io/badge/GenAI-Gemini-orange)
